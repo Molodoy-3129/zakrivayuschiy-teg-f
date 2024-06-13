@@ -10,10 +10,12 @@
       }
     }
    
+   
+   @media (prefers-color-scheme: light) {
       path {
         color: black;
       }
-    
+    }
    
    
         </style>

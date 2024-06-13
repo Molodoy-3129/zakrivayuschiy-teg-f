@@ -6,8 +6,10 @@
     --main-weight-text: 400;
     --header-weight-text: 700;
     --background-color: #FFFFFF;
+    --accent-color: #000000;
     --gradient-color: #E7E7E7;
     --dot-gradient-color: #E7E7E7;
     --top-gradient-color: #E7E7E7;
     --bottom-gradient-color: #1A1A1A;
+    --heart-sparks-color: red;
 }
