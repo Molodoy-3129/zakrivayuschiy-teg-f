@@ -14,7 +14,7 @@
 
 */
 
-@supports (font-variation-settings: normal, woff2-variations) {
+@supports (font-variation-settings: normal) {
   .page {
       font-variation-settings: "wght" var(--main-weight-text);
   }
