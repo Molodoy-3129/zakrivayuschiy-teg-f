@@ -93,7 +93,7 @@
   color: currentColor;
   font-family: var(--font-family);
   font-size: inherit;
-  font-size: 14px;
+
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
@@ -197,9 +197,10 @@
 .img-6 {
   filter: saturate(158%);
 }
-
+ 
 .img-7 {
-  filter: hue-rotate(-90deg);
+  filter: hue-rotate(-90deg) grayscale(0.8) saturate(158%);
+  
 }
 .lable {
   z-index: 1;
@@ -307,9 +308,7 @@
   fill: var(--accent-color);
 }
 
-.card__icon-button:active {
-  fill: red;
-}
+
 
 .sparks {
   fill: var(--heart-sparks-color);
@@ -330,7 +329,7 @@
   padding: 8.5px 37px;
   position: relative;
   cursor: pointer;
-  border: 2px solid var(--accent-color);
+
   background-color: transparent;
   transition: 0.5s ease-in-out;
   z-index: 0;
@@ -345,7 +344,7 @@
   transition: 0.3s;
   width: 0;
   height: 100%;
-  transition: 0.5s ease-in-out;
+
   background-color: var(--accent-color);
 }
 
@@ -391,10 +390,10 @@
   gap: 8px;
   font-family: var(--accent-font);
   border: 2px solid var(--accent-color);
-  padding: 8.5px 37px;
+
   position: relative;
   cursor: pointer;
-  border: 2px solid var(--accent-color);
+
   transition: 0.5s ease-in-out;
   z-index: 0;
   margin: 0 auto;
@@ -411,7 +410,7 @@
   transition: 0.3s;
   width: 0;
   height: 100%;
-  transition: 0.5s ease-in-out;
+
   background-color: var(--accent-color);
 }
 
@@ -422,6 +421,8 @@
 .floppy {
   position: relative;
   z-index: 2;
+  block-size: 21px;
+  inline-size: 21px;
 }
 
 .save-button:hover {
@@ -429,10 +430,7 @@
   transition: 0.5s;
 }
 
-.floppy {
-  block-size: 21px;
-  inline-size: 21px;
-}
+
 
 dialog {
   width: 353px;
