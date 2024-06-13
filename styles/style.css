@@ -16,7 +16,7 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-      font-variation-settings: "wght" var(--main-weight-text);
+    font-variation-settings: 'wght' var(--main-weight-text), 'slnt' 0;
   }
 }
 
