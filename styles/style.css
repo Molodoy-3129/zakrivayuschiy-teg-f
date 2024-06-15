@@ -16,7 +16,7 @@
 
 /*@supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: 'wght' var(--), 'slnt' 0;
+    font-variation-settings: 'wght' var(--main-text-weight), 'slnt' 0;
   }
 }*/
 
@@ -32,7 +32,6 @@
   background-size: cover;
   background-attachment: fixed;
   font-variation-settings: "wght" var(--main-weight-text);
-
   margin: 0 auto;
   width: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
   color: var(--accent-color);
@@ -149,7 +148,7 @@
 
 .main-content {
   max-width: 700px;
-  margin-block-start: 100px;
+  margin-block-start: 102px;
 }
 
 /*.main-content .card:not(:first-of-type) {
@@ -174,7 +173,14 @@ margin-block-start: 51px;
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+
+
 }
+
+.letter-space {
+  letter-spacing: 1px;
+}
+
 
 .text {
   font-size: 18px;
@@ -237,8 +243,8 @@ margin-block-start: 51px;
   font-size: 14px;
   line-height: 14px;
   opacity: 0.5;
-  inset-inline-end: 20px;
-  inset-block-start: 20px;
+  inset-inline-end: 26px;
+  inset-block-start: 30px;
   text-shadow: 1px var(--background-color);
 }
 
@@ -491,6 +497,8 @@ dialog button {
   cursor: pointer;
 }
 
+
+
 @media (width <= 375px) {
   .header {
       padding: 120px 13px 20px;
@@ -503,7 +511,7 @@ dialog button {
   }
 
   .img-container {
-      height: 371px;
+      height: 375px;
   }
 
   .save-button {
@@ -519,6 +527,59 @@ dialog button {
       width: 28px;
       height: 28px;
       margin: 0 auto;
+  }
+  .letter-space {
+    letter-spacing: 0;
+  }
+
+  .lable {
+    inset-inline-end: 13px;
+    inset-block-start: 25px;
+  }
+  
+  
+  .margin-bottom-50 {
+    margin-block-start: 55px;
+  }
+  
+  .margin-bottom-52 {
+    margin-block-start: 53px;
+  }
+
+  .main-content {
+    margin-block-start: 99px;
+  }
+
+  .impression-1 {
+    margin-block-start: 50px;
+  }
+
+  .impression-2 {
+    margin-block-start: 48px;
+  }
+
+  .impression-3 {
+    margin-block-start: 45px;
+  }
+  
+  .impression-4 {
+    margin-block-start: 45px;
+  }
+
+  .impression-5 {
+    margin-block-start: 66px;
+  }
+
+  .impression-6 {
+    margin-block-start: 25px;
+  }
+
+  .impression-7 {
+    margin-block-start: 45px;
+  }
+
+  .impression-8 {
+    margin-block-start: 45px;
   }
 
 
