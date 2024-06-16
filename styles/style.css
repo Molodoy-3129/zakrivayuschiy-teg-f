@@ -150,15 +150,16 @@
 }
 
 .main-content .card:not(:first-of-type) {
-  margin-block-start: 51px;
+  margin-block-start: 49px;
 }
 
 .text-content {
-  padding: 25px;
+  padding: 0 25px 25px 25px;
   font-size: 18px;
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+
 }
 
 .letter-space {
@@ -166,10 +167,12 @@
 }
 
 .text {
+  margin-block-start: 27px;
   font-size: 18px;
   line-height: 21px;
   font-variation-settings: "wght" var(--main-text-weight);
 }
+
 
 .card-title {
   font-size: 18px;
@@ -248,9 +251,6 @@
   }
 }
 
-.impression {
-  margin-block-start: 27px;
-}
 
 .core {
   fill: transparent;
