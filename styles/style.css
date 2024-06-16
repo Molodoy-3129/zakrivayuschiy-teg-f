@@ -219,10 +219,12 @@
   filter: saturate(158%);
 }
 
-.filter-multy {
+.filter-hue-rotate {
   filter: hue-rotate(-90deg);
-  filter: saturate(158%);
-  filter: grayscale(0.8);
+}
+
+.filter-multy {
+  filter: sepia(1) contrast(2) brightness(200%);
 }
 
 .lable {
