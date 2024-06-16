@@ -150,7 +150,7 @@
 }
 
 .main-content .card:not(:first-of-type) {
-margin-block-start: 51px;
+  margin-block-start: 51px;
 }
 
 .text-content {
@@ -164,7 +164,6 @@ margin-block-start: 51px;
 .letter-space {
   letter-spacing: 1px;
 }
-
 
 .text {
   font-size: 18px;
@@ -402,7 +401,7 @@ margin-block-start: 51px;
   background-color: var(--background-color);
   align-items: center;
   align-self: center;
-  margin-block-end: 103px
+  margin-block-end: 103px;
 }
 
 .floppy {
@@ -459,11 +458,9 @@ dialog button {
   padding: 12.5px 37px;
 }
 
-
-
 @media (width <= 375px) {
   .header {
-      padding: 120px 13px 20px; 
+      padding: 120px 13px 20px;
   }
 
   .header-title {
@@ -480,23 +477,21 @@ dialog button {
       gap: 11px;
       padding: 14.5px 21px;
       font-size: 10px;
-      width: 307px;
       font-size: 13px;
       letter-spacing: 0.7px;
       margin-block-start: 50px;
-  } 
-  
-  .text-content {
-   letter-spacing: 1px;
+  }
 
+  .text-content {
+      letter-spacing: 1px;
   }
 
   .margin-bottom {
-    margin-block-start: 7px;
+      margin-block-start: 7px;
   }
 
   .text {
-   line-height: 21px;
+      line-height: 21px;
   }
 
   .floppy {
@@ -504,9 +499,9 @@ dialog button {
       height: 28px;
       margin: 0 auto;
   }
- 
+
   .lable {
-    inset-inline-end: 13px;
-    inset-block-start: 25px;
+      inset-inline-end: 13px;
+      inset-block-start: 25px;
   }
 }
