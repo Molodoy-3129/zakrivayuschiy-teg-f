@@ -30,20 +30,6 @@
 --header-text-weight: 785;
 }
 
-@media (prefers-color-theme: light) {
-    :root {
-        --background-color: #FFFFFF;
-        --accent-color: black;
-        --text-reverse-color:  #FFFFFF;
-        --gradient-color: #E7E7E7;
-        --dot-gradient-color: #E7E7E7;
-        --top-gradient-color: #E7E7E7;
-        --bottom-gradient-color: #1A1A1A;
-        --main-text-weight: 400;
-        --header-text-weight: 700;
-       }
-        
-}
 
 @media (prefers-color-theme: dark) {
     :root {
