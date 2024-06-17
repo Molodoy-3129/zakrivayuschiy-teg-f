@@ -59,21 +59,21 @@
         --accent-color: #00CC14;
         --text-reverse-color: #00CC14;
         
---background-image: repeating-linear-gradient(
-    to bottom,
-    #000 0px,
-    #000 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  repeating-linear-gradient(
-    to right,
-    #000 0px,
-    #000 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  linear-gradient(to bottom, #007f0c 0%, #004306 100%);
+        --background-image: repeating-linear-gradient(
+            to bottom,
+            #000 0px,
+            #000 2px,
+            transparent 2px,
+            transparent 4px
+          ),
+          repeating-linear-gradient(
+            to right,
+            #000 0px,
+            #000 2px,
+            transparent 2px,
+            transparent 4px
+          ),
+          linear-gradient(to bottom, #007f0c 0%, #004306 100%);
         --main-text-weight: 465;
         --header-text-weight: 785;
    
