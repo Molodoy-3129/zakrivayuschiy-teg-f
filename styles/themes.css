@@ -11,26 +11,12 @@
  --accent-color: black;
  --text-reverse-color:  #FFFFFF;
  --gradient-color: #E7E7E7;
- --dot-gradient-color: #1A1A1A;
+ --dot-gradient-color: #E7E7E7;
  --top-gradient-color: #E7E7E7;
  --bottom-gradient-color: #1A1A1A;
  --main-text-weight: 400;
  --header-text-weight: 700;
- --background-image: repeating-linear-gradient(
-    to bottom,
-    #000 0px,
-    #000 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  repeating-linear-gradient(
-    to right,
-    #000 0px,
-    #000 2px,
-    transparent 2px,
-    transparent 4px
-  ),
-  linear-gradient(to bottom, #E7E7E7 0%, #1A1A1A 100%);
+
 }
 
 :root.theme-dark {
@@ -38,27 +24,13 @@
 --accent-color: #00CC14;
 --text-reverse-color: #00CC14;
 --gradient-color: #007F0C;
---dot-gradient-color: #004306;
+--dot-gradient-color: black;
 --top-gradient-color: #007F0C;
 --bottom-gradient-color: #004306;
 --main-text-weight: 465;
 --header-text-weight: 785;
 
---background-image: repeating-linear-gradient(
-        to bottom,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      repeating-linear-gradient(
-        to right,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      linear-gradient(to bottom, #007f0c 0%, #004306 100%);
+
 }
 
 
@@ -68,25 +40,11 @@
         --accent-color: #00CC14;
         --text-reverse-color: #00CC14;
         --gradient-color: #007F0C;
-        --dot-gradient-color: #004306;
+        --dot-gradient-color: black;
         --top-gradient-color: #007F0C;
         --bottom-gradient-color: #004306;
         --main-text-weight: 465;
         --header-text-weight: 785;
-        --background-image: repeating-linear-gradient(
-        to bottom,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      repeating-linear-gradient(
-        to right,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      linear-gradient(to bottom, #007f0c 0%, #004306 100%);
-        }
+   
+    }
 }
