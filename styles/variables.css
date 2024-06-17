@@ -7,24 +7,10 @@
     --header-text-weight: 700;
     --background-color: #FFFFFF;
     --accent-color: #000000;
-    --background-image: repeating-linear-gradient(
-        to bottom,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      repeating-linear-gradient(
-        to right,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      linear-gradient(to bottom, #E7E7E7 0%, #1A1A1A 100%);
-     --main-text-weight: 400;
-     --header-text-weight: 700;
+    --gradient-color: #E7E7E7;
+    --dot-gradient-color: #E7E7E7;
+    --top-gradient-color: #E7E7E7;
+    --bottom-gradient-color: #1A1A1A;
     --text-reverse-color: white;
     --heart-sparks-color: red;
- 
 }
